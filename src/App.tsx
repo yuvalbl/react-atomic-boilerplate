@@ -1,12 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
 
 const App: React.FC = () => {
+  const styles = {
+    logo: {
+      height: '40vh'
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header>
+        <img src={logo} alt="logo" style={styles.logo}/>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -21,6 +26,6 @@ const App: React.FC = () => {
       </header>
     </div>
   );
-}
+};
 
 export default App;
