@@ -67,6 +67,12 @@ Note:
 This project is using the [recommended file location](https://storybook.js.org/docs/basics/writing-stories/#story-file-location) strategy.
 For that reason `config.ts` use path `../src/components` instead of `../src/stories`
 
+### Step 3: Add [React Router](https://reacttraining.com/react-router/web/guides/quick-start)
+```
+npm i react-router-dom 
+npm i -D @types/react-router-dom 
+```
+
 ## Learn More about React
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 To learn React, check out the [React documentation](https://reactjs.org/).
