@@ -1,2 +1,2 @@
-interface ITodo {
+export interface ITodo {
 }
